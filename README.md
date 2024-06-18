@@ -16,15 +16,15 @@ This project leverages Large Language Models (LLMs) and other machine learning m
 ### Installation
 ```bash
 # Clone the repository
-git clone [your-repository-url]
-cd [your-project-directory]
+git clone https://github.com/oMarquess/clustering-llm.git
+cd src/clustering-llm
 
 # Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 # Install dependencies
-pip install fastapi uvicorn langchain tensorflow pandas openpyxl
+pip install -r requirements.txt
 ```
 
 ### Usage
